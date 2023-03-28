@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"typeRoots": [
+			"./node_modules/@types/"
+		],
+		"strict": true,
+		"target": "es2022",
+		"lib": [
+			"es2022",
+			"dom",
+			"esnext.bigint"
+		],
+		"allowJs": false,
+		"allowSyntheticDefaultImports": false,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"charset": "utf8",
+		"locale": "en",
+		"newLine": "lf"
+	},
+	"include": [
+		"./src/**/*"
+	]
+}
